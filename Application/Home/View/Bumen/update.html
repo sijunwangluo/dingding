@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{$v.name}部门</title>
+    <style type="text/css">
+        body{
+            background: oldlace;
+
+        }
+        table{
+            width: 1000px;
+            margin: 0 auto;
+            border-collapse: collapse;
+
+
+        }
+        td{
+            border: 1px solid #333;
+            padding: 10px;
+            margin: 10px;
+        }
+        a:hover,a:visited{
+
+            text-decoration: none;
+            color: red;
+        }
+        a{
+            text-decoration: none;
+            color: darkslategrey;
+        }
+
+    </style>
+</head>
+<body>
+<form action="__MODULE__/Bumen/Update"  method="post">
+<table>
+
+    <thead>
+    <tr>
+        <th colspan="2">{$v.name}部门</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    <tr>
+        <td>部门id</td>
+        <td><input type="text" value="{$v.id}"  name="id"></td>
+    </tr>
+    <tr>
+        <td>部门名称</td>
+        <td><input type="text" value="{$v.name}" name="name"></td>
+    </tr>
+    <tr>
+        <td>父部门id，根部门为1</td>
+        <td><input type="text" value="{$v.parentid}" name="parentid"></td>
+    </tr>
+    <tr>
+        <td>部门序号</td>
+        <td><input type="text" value="{$v.order}" name="order"></td>
+    </tr>
+    <tr>
+        <td>部门群 </td>
+        <td><input type="text" value="{$v.createDeptGroup}" name="createDeptGroup"></td>
+    </tr>
+    <tr>
+        <td>新人自动入群 </td>
+        <td><input type="text" value="{$v.autoAddUser}" name="autoAddUser"></td>
+    </tr>
+    <tr>
+        <td>是否隐藏部门</td>
+        <td><input type="text" value="{$v.deptHiding}" name="deptHiding"></td>
+    </tr>
+    <tr>
+        <td>部门隐藏看哪部</td>
+        <td><input type="text" value="{$v.deptPerimits}" name="deptPerimits"></td>
+    </tr>
+    <tr>
+        <td>部门隐藏，可看谁</td>
+        <td><input type="text" value="{$v.userPerimits}" name="userPerimits"></td>
+    </tr>
+    <tr>
+        <td> 自己看己</td>
+        <td><input type="text" value="{$v.outerDept}" name="outerDept"></td>
+    </tr>
+    <tr>
+        <td>自看，可以看哪部</td>
+        <td><input type="text" value="{$v.outerPermitDepts}" name="outerPermitDepts"></td>
+    </tr>
+    <tr>
+        <td>自看，可以看哪人</td>
+        <td><input type="text" value="{$v.outerPermitUsers}" name="outerPermitUsers"></td>
+    </tr>
+    <tr>
+        <td>企业群群主</td>
+        <td><input type="text" value="{$v.orgDeptOwner}" name="orgDeptOwner"></td>
+    </tr>
+    <tr>
+        <td>部门的主管列表</td>
+        <td><input type="text" value="{$v.deptManagerUseridList}" name="deptManagerUseridList"></td>
+    </tr>
+    <tr>
+
+        <td  colspan="2" align="center"><input type="submit" value="修改"></td>
+
+    </tr>
+    <tr>
+
+
+        <td  align="center" colspan="2"><a href="__MODULE__/bumen/index" >返回部门首页</a></td>
+    </tr>
+
+    </tbody>
+</table>
+</form>
+</body>
+</html>

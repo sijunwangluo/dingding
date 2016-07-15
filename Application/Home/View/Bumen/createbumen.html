@@ -1,0 +1,62 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <style type="text/css">
+        body{
+            background: oldlace;
+
+        }
+        table{
+            width: 1000px;
+            margin: 0 auto;
+            border-collapse: collapse;
+
+
+        }
+        td{
+            border: 1px solid #333;
+            padding: 10px;
+            margin: 10px;
+        }
+        a:hover,a:visited{
+
+            text-decoration: none;
+            color: red;
+        }
+        a{
+            text-decoration: none;
+            color: darkslategrey;
+        }
+
+    </style>
+
+</head>
+<body>
+<form action="__MODULE__/bumen/CreateDepartment" method="post" >
+<table>
+    <tr><th colspan="2">增加部门</th></tr>
+    <tr>
+        <td>部门名称(汉字输入即可)</td>
+        <td><input type="text" name="name"></td>
+    </tr>
+    <tr>
+        <td>上级部门(输入部门列表中部门的id号)</td>
+        <td><input type="text" name="parentid"></td>
+    </tr>
+    <tr>
+        <td>部门序号(输入数字)</td>
+        <td><input type="text" name="order"></td>
+    </tr>
+    <tr>
+        <td>部门群(true or false)</td>
+        <td><input type="text" name="status"></td>
+    </tr>
+    <tr><td colspan="2" align="center"><input type="submit" value="提交"></td></tr>
+    <tr><td colspan="2" align="center"><a href="__MODULE__/bumen/index">返回部门首页</a></td></tr>
+</table>
+
+</form>
+
+
+</body>
+</html>

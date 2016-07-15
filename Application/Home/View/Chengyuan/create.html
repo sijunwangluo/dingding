@@ -1,0 +1,63 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>添加成员</title>
+    <style type="text/css">
+        body{
+            background: oldlace;
+
+        }
+        table{
+            width: 1000px;
+            margin: 0 auto;
+            border-collapse: collapse;
+
+
+        }
+        td{
+            border: 1px solid #333;
+            padding: 10px;
+            margin: 10px;
+        }
+        a:hover,a:visited{
+
+            text-decoration: none;
+            color: red;
+        }
+        a{
+            text-decoration: none;
+            color: darkslategrey;
+        }
+
+    </style>
+
+</head>
+<body>
+<form action="__MODULE__/chengyuan/Create" method="post" >
+    <table>
+        <tr><th colspan="2">增加成员</th></tr>
+        <tr>
+            <td>姓名</td>
+            <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+            <td>电话</td>
+            <td><input type="text" name="mobile"></td>
+        </tr>
+        <tr>
+            <td>所在部门</td>
+            <td><input type="text" name="department[]"><input type="text" name="department[]"><input type="text" name="department[]"></td>
+        </tr>
+        <tr>
+            <td>职位</td>
+            <td><input type="text" name="position"></td>
+        </tr>
+        <tr><td colspan="2" align="center"><input type="submit" value="提交"></td></tr>
+        <tr><td colspan="2" align="center"><a href="__MODULE__/bumen/index">返回部门首页</a></td></tr>
+    </table>
+
+</form>
+
+
+</body>
+</html>

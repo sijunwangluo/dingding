@@ -1,0 +1,23 @@
+[ 2016-07-08T05:21:43+08:00 ] 42.156.251.188 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+NOTIC: [2] curl_errno(): 25 is not a valid cURL handle resource /www/web/dingding_sijunkeji_com/public_html/Application/Home/Controller/BumenController.class.php 第 41 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource /www/web/dingding_sijunkeji_com/public_html/Application/Home/Controller/BumenController.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: parentid /www/web/dingding_sijunkeji_com/public_html/Application/Runtime/Cache/Home/9782c61351f31d09f766303d0189c1a6.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{$v.name}部门</title>
+    <style type="text/css">
+        body{
+            background: oldlace;
+
+        }
+        table{
+            width: 1000px;
+            margin: 0 auto;
+            border-collapse: collapse;
+
+
+        }
+        td{
+            border: 1px solid #333;
+            padding: 10px;
+            margin: 10px;
+        }
+        a:hover,a:visited{
+
+            text-decoration: none;
+            color: red;
+        }
+        a{
+            text-decoration: none;
+            color: darkslategrey;
+        }
+
+    </style>
+</head>
+<body>
+<table>
+    <thead>
+    <tr>
+        <th colspan="2">{$v.name}部门</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    <tr>
+        <td>部门id</td>
+        <td>{$v.id}</td>
+    </tr>
+    <tr>
+        <td>部门名称</td>
+        <td>{$v.name}</td>
+    </tr>
+    <tr>
+        <td>父部门id，根部门为1</td>
+        <td>{$v.parentid}</td>
+    </tr>
+    <tr>
+        <td>部门序号</td>
+        <td>{$v.order}</td>
+    </tr>
+    <tr>
+        <td>部门群 </td>
+        <td>{$v.createDeptGroup}</td>
+    </tr>
+    <tr>
+        <td>新人自动入群 </td>
+        <td>{$v.autoAddUser}</td>
+    </tr>
+    <tr>
+        <td>是否隐藏部门</td>
+        <td>{$v.deptHiding}</td>
+    </tr>
+    <tr>
+        <td>部门隐藏看哪部</td>
+        <td>{$v.deptPerimits}</td>
+    </tr>
+    <tr>
+        <td>部门隐藏，可看谁</td>
+        <td>{$v.userPerimits}</td>
+    </tr>
+    <tr>
+        <td> 自己看己</td>
+        <td>{$v.outerDept}</td>
+    </tr>
+    <tr>
+        <td>自看，可以看哪部</td>
+        <td>{$v.outerPermitDepts}</td>
+    </tr>
+    <tr>
+        <td>自看，可以看哪人</td>
+        <td>{$v.outerPermitUsers}</td>
+    </tr>
+    <tr>
+        <td>企业群群主</td>
+        <td>{$v.orgDeptOwner}</td>
+    </tr>
+    <tr>
+        <td>部门的主管列表</td>
+        <td>{$v.deptManagerUseridList}</td>
+    </tr>
+     <tr> <td  align="center" colspan="2"><a href="__MODULE__/bumen/index" >返回部门首页</a></td></tr>
+    </tbody>
+</table>
+</body>
+</html>

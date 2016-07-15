@@ -1,0 +1,135 @@
+[ 2016-06-25T05:21:56+08:00 ] 42.156.251.188 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+NOTIC: [2] curl_errno(): 25 is not a valid cURL handle resource /www/web/dingding_sijunkeji_com/public_html/Application/Home/Controller/BumenController.class.php 第 41 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource /www/web/dingding_sijunkeji_com/public_html/Application/Home/Controller/BumenController.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined index: parentid /www/web/dingding_sijunkeji_com/public_html/Application/Runtime/Cache/Home/9782c61351f31d09f766303d0189c1a6.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-06-25T16:50:10+08:00 ] 120.6.105.216 /index.php/Home/Huihua/sendtpl.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2016-06-25T16:50:15+08:00 ] 120.6.105.216 /index.php/Home/bumen/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+NOTIC: [2] curl_errno(): 25 is not a valid cURL handle resource /www/web/dingding_sijunkeji_com/public_html/Application/Home/Controller/BumenController.class.php 第 41 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource /www/web/dingding_sijunkeji_com/public_html/Application/Home/Controller/BumenController.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined index: parentid /www/web/dingding_sijunkeji_com/public_html/Application/Runtime/Cache/Home/9782c61351f31d09f766303d0189c1a6.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2016-06-25T16:50:26+08:00 ] 120.6.105.216 /index.php/Home/bumen/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+NOTIC: [2] curl_errno(): 25 is not a valid cURL handle resource /www/web/dingding_sijunkeji_com/public_html/Application/Home/Controller/BumenController.class.php 第 41 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource /www/web/dingding_sijunkeji_com/public_html/Application/Home/Controller/BumenController.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined index: parentid /www/web/dingding_sijunkeji_com/public_html/Application/Runtime/Cache/Home/9782c61351f31d09f766303d0189c1a6.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-06-25T16:50:43+08:00 ] 120.6.105.216 /index.php/Home/bumen/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2] curl_errno(): 25 is not a valid cURL handle resource /www/web/dingding_sijunkeji_com/public_html/Application/Home/Controller/BumenController.class.php 第 41 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource /www/web/dingding_sijunkeji_com/public_html/Application/Home/Controller/BumenController.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined index: parentid /www/web/dingding_sijunkeji_com/public_html/Application/Runtime/Cache/Home/9782c61351f31d09f766303d0189c1a6.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-06-25T16:51:18+08:00 ] 120.6.105.216 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+NOTIC: [2] curl_errno(): 25 is not a valid cURL handle resource /www/web/dingding_sijunkeji_com/public_html/Application/Home/Controller/BumenController.class.php 第 41 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource /www/web/dingding_sijunkeji_com/public_html/Application/Home/Controller/BumenController.class.php 第 41 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: parentid /www/web/dingding_sijunkeji_com/public_html/Application/Runtime/Cache/Home/9782c61351f31d09f766303d0189c1a6.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
